@@ -35,7 +35,7 @@ const Aweb = () => {
         {homedata.map((data, i) => {
           const { name, image } = data;
           const { key } = i;
-          return (
+          return (        
             <>
               <div
                 key={key}
